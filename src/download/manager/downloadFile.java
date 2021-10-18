@@ -37,6 +37,7 @@ public class downloadFile extends Thread{
 		 	try {
 				//URL remoteFile = new URL ("https://www.xotours.net/images/Photo/Europe/Barcelona.jpg");
 				//URL remoteFile = new URL ("https://if.unram.ac.id/wp-content/uploads/2020/08/opentalk2-770x410.png");
+                                //http://www.stendev.website/BTS/1.mp3
 				URL remoteFile = new URL (download);
                                 int fileNameIndex = download.lastIndexOf("/");
                                 String fileName = download.substring(fileNameIndex+1);
